@@ -664,7 +664,7 @@ do_break(void)
 	case '\n':
 	    continue;
 	default:
-	    erts_printf("Eh?\n\n");
+	    erts_printf("Sorry? Please enter one of the options above.\n\n");
 	}
     }
 
