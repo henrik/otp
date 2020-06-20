@@ -664,7 +664,9 @@ do_break(void)
 	case '\n':
 	    continue;
 	default:
-	    erts_printf("Eh?\n\n");
+	    erts_printf("Sorry? Please enter one of:"
+	                "(a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo\n"
+	                "(l)oaded (v)ersion (k)ill (D)b-tables (d)istribution\n\n");
 	}
     }
 
